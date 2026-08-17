@@ -3,16 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhuwan Magar | Data Science Portfolio</title>
-    
+    <meta name="description" content="Bhuwan Magar - Data Science and Machine Learning Portfolio">
+    <title>Bhuwan Magar | Data Science & Machine Learning</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-    <h1>Bhuwan Magar</h1>
-    <p>Data Science & Machine Learning</p>
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="logo" href="#home">BM<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a class="nav-resume" href="#contact">Let's Connect</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero / Home -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">DATA SCIENCE • MACHINE LEARNING</p>
+                    <h1>Building useful solutions with <span>data.</span></h1>
+                    <p class="hero-text">
+                        I'm Bhuwan Magar, a junior data scientist focused on turning
+                        data into clear insights, practical models, and useful applications.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projects">View My Projects</a>
+                        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div>
+                            <strong>Python</strong>
+                            <span>Data & ML</span>
+                        </div>
+                        <div>
+                            <strong>SQL</strong>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div>
+                            <strong>ML</strong>
+                            <span>Model Building</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="profile-placeholder">BM</div>
+                    <div class="hero-card-info">
+                        <p>Currently focused on</p>
+                        <h3>Data Science & Machine Learning</h3>
+                        <span>Python · SQL · Scikit-learn · Streamlit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container two-column">
+                <div>
+                    <p class="section-label">ABOUT ME</p>
+                    <h2>Learning, building, and solving problems with data.</h2>
+                </div>
+
+                <div class="section-copy">
+                    <p>
+                        I work with data to understand patterns, communicate insights,
+                        and build machine learning solutions. My projects cover data
+                        cleaning, exploratory analysis, visualization, predictive modeling,
+                        and practical applications.
+                    </p>
+                    <p>
+                        I enjoy taking a problem from raw data to a clear result and
+                        learning the reasoning behind each step rather than treating
+                        machine learning as a black box.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-muted">
+            <div class="container">
+                <p class="section-label">SKILLS</p>
+                <div class="section-heading">
+                    <h2>Tools I use to work with data.</h2>
+                    <p>A practical toolkit for analysis, modeling, visualization, and deployment.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>Programming</h3>
+                        <p>Python, SQL, Pandas, NumPy</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>Data Analysis</h3>
+                        <p>Data cleaning, EDA, statistics, and visualization</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>Machine Learning</h3>
+                        <p>Scikit-learn, regression, classification, feature engineering</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Tools & Deployment</h3>
+                        <p>Jupyter, GitHub, VS Code, Streamlit</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <p class="section-label">SELECTED PROJECTS</p>
+                <div class="section-heading">
+                    <h2>Projects that show how I work with data.</h2>
+                    <p>Replace the links below with your actual GitHub repositories and live demos.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card featured">
+                        <div class="project-visual visual-one">
+                            <span>01</span>
+                            <div class="visual-title">AI Job Trends</div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">DATA ANALYSIS • STREAMLIT</p>
+                            <h3>AI Job Trends Dashboard</h3>
+                            <p>
+                                An interactive dashboard exploring AI and job-market trends
+                                through data analysis and visualizations.
+                            </p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <a class="project-link" href="https://github.com/Magar-Bhuwan/AI-Trends-2030-Analysis" aria-label="View AI Job Trends project">
+                                View Project <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-two">
+                            <span>02</span>
+                            <div class="visual-title">IMDB Sentiment</div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">NLP • MACHINE LEARNING</p>
+                            <h3>IMDB Sentiment Analysis</h3>
+                            <p>
+                                A text classification application that predicts whether
+                                movie reviews express positive or negative sentiment.
+                            </p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>SVM</span>
+                            </div>
+                            <a class="project-link" href="https://github.com/Magar-Bhuwan/IMDB-Sentiment-Analysis" aria-label="View IMDB Sentiment project">
+                                View Project <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-three">
+                            <span>03</span>
+                            <div class="visual-title">Titanic EDA</div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">EDA • VISUALIZATION</p>
+                            <h3>Titanic Exploratory Analysis</h3>
+                            <p>
+                                An exploratory data analysis project examining passenger
+                                characteristics, survival patterns, and relationships.
+                            </p>
+                            <div class="tags">
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                                <span>EDA</span>
+                            </div>
+                            <a class="project-link" href="https://github.com/Magar-Bhuwan/Data-Science-and-ML/tree/main/2_Data_Science_ML" aria-label="View Titanic EDA project">
+                                View Project <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section section-muted">
+            <div class="container">
+                <p class="section-label">EXPERIENCE</p>
+                <div class="section-heading">
+                    <h2>Where I've been learning and applying technology.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-date">2026–Present</div>
+                        <div>
+                            <h3>Data Science & Machine Learning Projects</h3>
+                            <p>
+                                Building projects with Python, data analysis, machine learning,
+                                NLP, dashboards, and practical applications.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-date">2025</div>
+                        <div>
+                            <h3>Internship — Nepal Telecom</h3>
+                            <p>
+                                Exposure to CRM tools, networking and digitization,
+                                FTTH/GSM systems, and basic ONT/OLT and router/switch concepts.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-box">
+                <div>
+                    <p class="section-label">CONTACT</p>
+                    <h2>Have a data problem to solve?</h2>
+                    <p>
+                        I'm open to opportunities, collaborations, and conversations
+                        around data science and machine learning.
+                    </p>
+                </div>
+
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="mailto.https://mail.google.com/mail/u/0/#inbox?compose=new">Email Me</a>
+                    <a class="btn btn-secondary" href="https://github.com/Magar-Bhuwan" target="_blank" rel="noopener">GitHub ↗</a>
+                    <a class="btn btn-secondary" href="https://www.linkedin.com/in/bhuwan-pulami-magar-6087b132b/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 Bhuwan Magar. Built with HTML & CSS.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
 
 </body>
 </html>
